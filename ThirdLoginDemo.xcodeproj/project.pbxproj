@@ -364,8 +364,8 @@
 				TargetAttributes = {
 					348B5A331F05E82B0056BBE5 = {
 						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = 7QT42R489Z;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = KPZB7A4HR4;
+						ProvisioningStyle = Manual;
 					};
 					348B5A4C1F05E82C0056BBE5 = {
 						CreatedOnToolsVersion = 8.3;
@@ -594,7 +594,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = 7QT42R489Z;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = KPZB7A4HR4;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ThirdLoginDemo/ThirdShareSDK/TencentQQ",
@@ -615,8 +617,10 @@
 					"\"$(SRCROOT)/ThirdLoginDemo/SRThirdSocialPlatform/libWeiboSDK/libWeiboSDK.a\"",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = R.S.ThirdLoginDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luwei.fortunedonkey1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c738166f-9d2a-4168-9fa3-ef9a0679feb1";
+				PROVISIONING_PROFILE_SPECIFIER = "youmenlogin fenfatestuse 2";
 			};
 			name = Debug;
 		};
@@ -625,7 +629,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = 7QT42R489Z;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = KPZB7A4HR4;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ThirdLoginDemo/ThirdShareSDK/TencentQQ",
@@ -646,8 +652,10 @@
 					"\"$(SRCROOT)/ThirdLoginDemo/SRThirdSocialPlatform/libWeiboSDK/libWeiboSDK.a\"",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = R.S.ThirdLoginDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luwei.fortunedonkey1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c738166f-9d2a-4168-9fa3-ef9a0679feb1";
+				PROVISIONING_PROFILE_SPECIFIER = "youmenlogin fenfatestuse 2";
 			};
 			name = Release;
 		};
